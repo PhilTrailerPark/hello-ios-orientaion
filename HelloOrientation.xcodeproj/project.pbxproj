@@ -182,6 +182,11 @@
 			attributes = {
 				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "My Company, Inc.";
+				TargetAttributes = {
+					978E6CA415C12ED50003805C = {
+						DevelopmentTeam = ZJDXHHVR2G;
+					};
+				};
 			};
 			buildConfigurationList = 978E6C9F15C12ED50003805C /* Build configuration list for PBXProject "HelloOrientation" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -333,6 +338,7 @@
 		978E6CD215C12ED50003805C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloOrientation/HelloOrientation-Prefix.pch";
 				INFOPLIST_FILE = "HelloOrientation/HelloOrientation-Info.plist";
@@ -345,6 +351,7 @@
 		978E6CD315C12ED50003805C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloOrientation/HelloOrientation-Prefix.pch";
 				INFOPLIST_FILE = "HelloOrientation/HelloOrientation-Info.plist";
